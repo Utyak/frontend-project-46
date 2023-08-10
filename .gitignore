@@ -1,0 +1,18 @@
+# Файлы и директории, созданные редакторами кода и IDE
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea
+.vscode
+.DS_Store
+
+# Каталоги зависимостей
+node_modules/
+
+# Исполняемые файлы сборки
+dist/
+
+# Локальные настройки ESLint
+.eslintcache
