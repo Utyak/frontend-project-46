@@ -42,7 +42,7 @@ jobs:
         uses: paambaati/codeclimate-action@v4.0.0
         # Add Code Climate secret key
         env:
-          CODECLIMATE_REPO_TOKEN: 96ebd4310b6f38a4f43adec0dc69e8fd8aff82a1d8d1a641b7ec64aecba69dd7
+          CC_TEST_REPORTER_ID: 96ebd4310b6f38a4f43adec0dc69e8fd8aff82a1d8d1a641b7ec64aecba69dd7
         with:
           coverageCommand: make test-coverage
           debug: true
