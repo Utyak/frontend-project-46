@@ -4,7 +4,7 @@
   "description": "[![Actions Status](https://github.com/Utyak/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Utyak/frontend-project-46/actions)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "commander": "^11.0.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "jest": "^29.6.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

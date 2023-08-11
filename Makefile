@@ -4,5 +4,9 @@ publish:
 	npm publish --dry-run
 lint:
 	npx eslint .
-gendiff:
-	
+test:
+	npm test
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8
+help:
+	npx gendiff -h
